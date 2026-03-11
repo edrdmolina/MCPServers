@@ -1,0 +1,22 @@
+{
+  "name": "facebook-group-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for searching Facebook group posts and comments via Puppeteer",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "scrape": "node dist/index.js --scrape"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "puppeteer": "^24.0.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
