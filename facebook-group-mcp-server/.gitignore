@@ -2,4 +2,3 @@ node_modules/
 dist/
 fb-profile/
 *.env
-scraper-profile/
